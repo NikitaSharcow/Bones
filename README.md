@@ -1,1 +1,1 @@
-# FunnyBones
+# Bones
