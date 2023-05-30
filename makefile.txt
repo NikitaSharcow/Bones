@@ -1,0 +1,4 @@
+all: main.o
+	gcc main.o -o main -lm
+main.o: main.c lodepng.h lodepng.c
+	gcc -c  main.c
