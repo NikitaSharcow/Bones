@@ -73,5 +73,8 @@ int main() {
   colouring(datacopy, mcodata, ih, iw, 4);
   char *output = "result.png";
   writePng(output, mcodata, iw, ih);
+  free(odata);
+  free(datacpye);
+  free(mcodata);
   return 0;
 }
